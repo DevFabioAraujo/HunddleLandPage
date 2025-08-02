@@ -41,3 +41,30 @@ body{
     gap: 80px;
     padding: 0px 0;
 }
+
+.container-left {
+display: flex;
+align-items: center;
+justify-content: center;   
+}
+
+.container-right {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ color: #fff;
+ max-width: 500px;
+ gap: 30px;
+}
+
+.container-right h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  line-height: 1.1;
+}
+
+.container-right p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;  
+}
