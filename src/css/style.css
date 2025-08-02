@@ -87,3 +87,24 @@ justify-content: center;
     background: #e0d7f3e2;
     color: #6d1bbd;
 }
+.footer {
+ display: flex;
+ justify-content: space-between;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+ align-items: center;
+ padding: 0 60px 40px 0;
+ background: transparent;
+    min-height: 80px;
+}
+.footer:hover {
+  color: #d1b2ff;
+}
+.footer p {
+  margin: 0;
+  justify-content: center; 
+}
